@@ -63,4 +63,4 @@ Open the localhost URL shown in your terminal (usually `http://localhost:5173`) 
 
 
 
-<img width="1600" height="947" alt="image" src="(image.png)" />
+
