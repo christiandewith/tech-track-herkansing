@@ -1,51 +1,66 @@
-# The best Premier League attacker
-Welcome to my repository of the best premier league attacker  at this moment 2025/2026. This is the data visualisation I built for the Minor Information Design at the HVA. 
+# The Best Premier League Attacker
 
-## What is this datavisualisation about?
-I'm someone who is very interested in football and I like watching the statistics of players. What especially fascinates me is statistical outliers. that why I made this datavisualisation where you can follow Erling Haaland all year to see how far a head he is of the rest of the premier league attackers. The data I used is goals and games. These statisctics are shown in a bubblechart with the top 10 premier league attackers based on their amount of goals. 
+Welcome to my repository tracking the best Premier League attacker for the 2025/2026 season. This is the data visualization I built for the Minor Information Design at the HVA.
 
-I made simple list with the players that are on the list and their amount of goals underneath the visualization so you can tell who is on there because sometimes players overlap and you can't tel who is who. 
+## 🔴 Live Demo
 
-I also a fixturs table so you can see the most recent result of every team in league. 
+**[View Live App on Vercel](https://tech-track-herkansing.vercel.app)**
 
+## About This Data Visualization
 
-## I build this using
-- Git
-- node
-- Sveltekit
-- d3.js
+I'm someone who is very interested in football and I like watching player statistics. What especially fascinates me is statistical outliers. That's why I made this data visualization where you can follow Erling Haaland all year to see how far ahead he is of the rest of the Premier League attackers. 
 
-## Installation Guide
+The data I used includes goals and games played. These statistics are shown in a bubble chart with the top 10 Premier League attackers based on their amount of goals.
 
- if you dont have node.js installed. run this in your terminal.
-
- 
- -- node install
+I also made a simple list with the players and their goal counts underneath the visualization so you can identify who is who, because sometimes players overlap in the chart.
 
 
 
- Clone the repository with the following command.
+## 🛠️ Built With
 
- 
--- git clone https://github.com/christiandewith/tech-track-main.git
+- **SvelteKit** - Web framework
+- **D3.js** - Data visualization
+- **Vite** - Build tool
+- **API-Football** - Real-time football data
+- **Vercel** - Hosting and deployment
 
+## 📦 Installation Guide
 
+### Prerequisites
 
- after run this to install all the dependencies
+If you don't have Node.js installed, download it from [nodejs.org](https://nodejs.org/).
 
- 
- -- npm install
+### Clone the Repository
 
+```bash
+git clone https://github.com/christiandewith/tech-track-herkansing.git
+cd tech-track-herkansing
+```
 
- then check if it works by running
+### Install Dependencies
 
- 
+```bash
+npm install
+```
 
+### Set Up Environment Variables
+
+Create a `.env` file in the root directory and add your API key:
+
+```
+VITE_API_KEY=your_api_key_here
+```
+
+Get your API key from [RapidAPI - API-Football](https://rapidapi.com/api-sports/api/api-football).
+
+### Run Development Server
+
+```bash
 npm run dev
+```
+
+Open the localhost URL shown in your terminal (usually `http://localhost:5173`) to view the project.
 
 
 
- Open the localhost/xxxx in your terminal to view the project. 
-
- it should look something like this. 
- <img width="1600" height="947" alt="image" src="https://github.com/user-attachments/assets/510f78de-f91e-4f3b-8e16-1c302c776a4a" />
+<img width="1600" height="947" alt="image" src="(image.png)" />
